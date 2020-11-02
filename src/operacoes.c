@@ -14,24 +14,23 @@ double input (double * a, double * b)
 
 void soma (double a, double b, double * x)
 {
-    double res = a + b;
-    *x = res;
+    *x = a + b;
+    //*x = res;
 } 
 
 void subtracao (double a, double b, double * x)
 {
-    double res = a - b;
-    *x = res;
+    *x = a - b;
+    //*x = res;
 } 
 
 void multiplicacao (double a, double b, double * x)
 {
-    double res = a * b;
-    *x = res;
+    *x = a * b;
+    //*x = res;
 } 
 
 void divisao (double a, double b, double * x)
 {
-    double res = a / b;
-    *x = res;
+    *x = a / b;
 }
