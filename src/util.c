@@ -17,7 +17,7 @@ void limpartela()
 void pausartela()
 {
     #ifdef __unix__
-        system("read -r -p \"Pressione qualquer tecla...\" key");
+        system("echo Pressione qualquer tecla..."); system("read -n1");
     #elif _WIN32
         system("pause");
     #elif _WIN64

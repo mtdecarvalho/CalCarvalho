@@ -7,7 +7,7 @@ double input (double * a, double * b)
     double n1, n2;
     printf("\nInsira o primeiro valor: ");
     scanf(" %lf", &n1);
-    printf("\nInsira o segundo valor: ");
+    printf("Insira o segundo valor: ");
     scanf(" %lf", &n2);
     *a = n1; *b = n2;
 }
